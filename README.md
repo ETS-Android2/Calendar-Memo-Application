@@ -9,7 +9,7 @@
     - DB는 단순 Key-Value 저장 객체인 SharedPreferences를 사용하였습니다.
     - Play 스토어에 출시 및 버전 업데이트를 하였습니다. (누적 사용자 : 9명)
         
-        [Play Console](https://www.notion.so/Play-Console-221a3093d4aa42a3bd8144d38199358e)
+        [Play Console](https://jasonyoo95.notion.site/Play-Console-221a3093d4aa42a3bd8144d38199358e)
         
     - 출시 7일 만에 게시 취소를 하였습니다. 그 이유는 DB 관련 로직에 치명적 버그가 발견되었고, SharedPreferences가 감당할 수 있는 데이터의 용량의 한계가 불명확해서, 불안정성이 우려되어 출시를 취소하였습니다. 코드도 매우 복잡하고 확장 불가능한 코드가 되어 유지 보수가 어려울 것 같았습니다.
 - **제작 문서**
